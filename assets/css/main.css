@@ -3275,6 +3275,9 @@ input, select, textarea {
 				.wrapper.style5 .features li {
 					border-top-color: #dfdfdf;
 				}
+				.infoImg {
+					display: none;
+				}
 
 			}
 
