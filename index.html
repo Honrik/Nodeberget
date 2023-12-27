@@ -19,6 +19,16 @@
                 width: 100px;
                 height: 60px;
             }
+			@media screen and (max-width: 768px) {
+				.flag-container {
+					flex-direction: column; /* Stack flags vertically */
+					align-items: center; /* Center flags */
+					width: auto; /* Adjust width */
+				}
+				.flag {
+					margin-bottom: 20px; /* Add some space between flags */
+				}
+			}
         </style>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
