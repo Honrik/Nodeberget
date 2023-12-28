@@ -3160,6 +3160,22 @@ input, select, textarea {
 				color: #2E3842;
 			}
 
+			.wrapper.style5 img {
+				margin-top: -20px;
+			}
+
+			.wrapper.style5 img.airbnb {
+				margin-left: 30px;
+			}
+
+			.wrapper.style5 a {
+				border-bottom: none;
+				color: #000;
+				text-decoration: none;
+				transition: none;
+			}
+
+
 			.wrapper.style5 input[type="text"],
 			.wrapper.style5 input[type="password"],
 			.wrapper.style5 input[type="email"],
