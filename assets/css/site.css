@@ -47,7 +47,7 @@ section[id]{scroll-margin-top:76px}
 .nav-mobile .nav-mobile__lang .active{color:var(--dark);font-weight:600}
 .site-header.is-open .nav-mobile{display:flex}
 
-@media (max-width:1250px){
+@media (max-width:1400px){
   .nav-desktop{display:none}
   .nav-burger{display:inline-flex}
 }
@@ -104,6 +104,7 @@ h3.block-title{margin:0 0 10px;font-family:var(--serif);font-weight:500;font-siz
 .card__title{font-family:var(--serif);font-weight:500;font-size:18px;color:var(--dark)}
 .card p{margin:0;font-size:13.5px;line-height:1.6}
 .card__link{margin-top:auto;padding-top:8px;font:500 12px/1 var(--sans);letter-spacing:.04em;text-transform:uppercase}
+.card__meta{font:500 11.5px/1.5 var(--sans);color:var(--gold);letter-spacing:.03em}
 .group-head{display:flex;align-items:baseline;gap:14px;margin-bottom:34px;flex-wrap:wrap}
 .group-head h2{margin:0;font-family:var(--serif);font-weight:500;font-size:26px;color:var(--dark)}
 .group-head span{font:400 13px/1.4 var(--sans);color:var(--gold)}
@@ -123,6 +124,12 @@ h3.block-title{margin:0 0 10px;font-family:var(--serif);font-weight:500;font-siz
 .media-row ul{margin:0 0 12px;padding-left:20px}
 .media-row li{font:400 15px/1.7 var(--sans);color:var(--body);margin-bottom:4px}
 .img-pair{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.photo-band{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.photo-band img{width:100%;height:100%;object-fit:cover;border-radius:2px;display:block;box-shadow:0 1px 3px rgba(0,0,0,.08)}
+.plan-img{display:block;max-width:760px;margin:0 auto;background:#fff;border:1px solid var(--line);border-radius:2px;padding:10px}
+.notice{background:var(--card);border-left:3px solid var(--gold);border-radius:2px;padding:16px 20px;margin:18px 0}
+.notice p,.notice li{font-size:14px}
+.notice ul{margin:6px 0 0;padding-left:18px}
 figure{margin:0}
 figcaption{margin-top:8px;font:400 12.5px/1.5 var(--sans);color:var(--body);font-style:italic}
 
@@ -179,6 +186,7 @@ ol.steps li{font:400 15px/1.75 var(--sans);color:var(--body);margin-bottom:12px}
 
 /* ---------- Responsive ---------- */
 @media (max-width:880px){
+  .photo-band{grid-template-columns:1fr}
   .links-grid{grid-template-columns:1fr}
   .address-block{border-left:none;padding-left:0;border-top:1px solid rgba(38,49,58,.15);padding-top:30px}
   .card-grid{grid-template-columns:1fr}
