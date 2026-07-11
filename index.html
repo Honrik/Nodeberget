@@ -1,78 +1,48 @@
-<!DOCTYPE HTML>
-<!--
-	Spectral by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Nodeberget</title>
-        <style>
-            .flag-container {
-                margin: 80px auto;
-                width: 700px;
-                display: flex;
-                justify-content: space-around;
-            }
-            .flag {
-                cursor: pointer;
-                width: 100px;
-                height: 60px;
-            }
-			@media screen and (max-width: 768px) {
-				.flag-container {
-					flex-direction: column; /* Stack flags vertically */
-					align-items: center; /* Center flags */
-					width: auto; /* Adjust width */
-				}
-				.flag {
-					margin-bottom: 55px; /* Add some space between flags */
-					width: 80px;
-					height: 50px;
-				}
-				#footer {
-					display: none;
-				}
-			}
-        </style>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
-        <header id="header">
-            <h1>Nodeberget</h1>
-        </header>
-		<!-- Page Wrapper -->
-			<div id="page-wrapper">
+<!DOCTYPE html>
+<html lang="no">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Nodeberget – Fritidsbolig på Flekkerøya</title>
+	<meta name="description" content="Nodeberget – fritidsbolig på Flekkerøya utenfor Kristiansand. Velg språk: norsk, engelsk eller tysk.">
+	<link rel="alternate" hreflang="no" href="https://nodeberget.com/html/norwegian/index-no.html">
+	<link rel="alternate" hreflang="en" href="https://nodeberget.com/html/english/index-en.html">
+	<link rel="alternate" hreflang="de" href="https://nodeberget.com/html/german/index-ger.html">
+	<link rel="alternate" hreflang="x-default" href="https://nodeberget.com/">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Spectral:wght@400;500;600&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="assets/css/site.css">
+</head>
+<body>
+<div class="page">
 
-				<!-- Main -->
-					<article id="main">
-						<header>
-							<h3>Vennligst velg et språk</h3>
-                             <h3>Please pick a language</h3>
-                              <h3>Bitte wählen Sie eine Sprache</h3>
+	<main class="lang-hero">
+		<span class="eyebrow">Flekkerøya, Kristiansand</span>
+		<h1 class="lang-hero__brand">Nodeberget</h1>
+		<p class="lang-hero__prompt">Vennligst velg et språk<br>Please pick a language<br>Bitte wählen Sie eine Sprache</p>
+		<div class="lang-choices">
+			<a class="lang-choice" href="html/norwegian/index-no.html">
+				<img src="html/images/norge.png" alt="Norsk flagg">
+				<span>Norsk</span>
+			</a>
+			<a class="lang-choice" href="html/english/index-en.html">
+				<img src="html/images/english.png" alt="UK flag">
+				<span>English</span>
+			</a>
+			<a class="lang-choice" href="html/german/index-ger.html">
+				<img src="html/images/german.png" alt="Deutsche Flagge">
+				<span>Deutsch</span>
+			</a>
+		</div>
+	</main>
 
-                              <div class="flag-container">
-								  <img src="html/images/norge.png" alt="Norwegian Flag" class="flag" onclick="window.location.href='html/norwegian/index-no.html';">
-								  <img src="html/images/english.png" alt="UK Flag" class="flag" onclick="window.location.href='html/english/index-en.html';">
-                                <img src="html/images/german.png" alt="German Flag" class="flag" onclick="window.location.href='html/german/index-ger.html';">
-                            </div>
-						</header>
-                     
-					</article>
+	<footer class="site-footer">
+		<div class="site-footer__inner">
+			<span class="site-footer__copy">© Nodeberget</span>
+		</div>
+	</footer>
 
-			</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
+</div>
+</body>
 </html>
