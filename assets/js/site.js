@@ -11,14 +11,6 @@
     });
   }
 
-  if (header && header.classList.contains('site-header--overlay')) {
-    var onScroll = function () {
-      header.classList.toggle('is-solid', window.scrollY > 40);
-    };
-    window.addEventListener('scroll', onScroll, { passive: true });
-    onScroll();
-  }
-
   var video = document.getElementById('hero-video');
   if (video) {
     var START = 12;

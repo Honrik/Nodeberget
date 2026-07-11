@@ -47,29 +47,6 @@ section[id]{scroll-margin-top:76px}
 .nav-mobile .nav-mobile__lang .active{color:var(--dark);font-weight:600}
 .site-header.is-open .nav-mobile{display:flex}
 
-/* Overlay variant (home, over hero) */
-.site-header--overlay{position:fixed;top:0;left:0;right:0;background:transparent;border-bottom-color:transparent}
-.site-header--overlay .brand{color:#fff}
-.site-header--overlay .nav-desktop a{color:#fff}
-.site-header--overlay .lang-switch{color:#fff;border-color:rgba(255,255,255,.5)}
-.site-header--overlay .lang-switch a{color:#fff}
-.site-header--overlay .lang-switch .active{color:#fff}
-.site-header--overlay .nav-burger{color:#fff}
-.site-header--overlay.is-solid,
-.site-header--overlay.is-open{background:var(--bg);border-bottom-color:rgba(38,49,58,.1)}
-.site-header--overlay.is-solid .brand,
-.site-header--overlay.is-open .brand{color:var(--dark)}
-.site-header--overlay.is-solid .nav-desktop a,
-.site-header--overlay.is-open .nav-desktop a{color:var(--accent)}
-.site-header--overlay.is-solid .lang-switch,
-.site-header--overlay.is-open .lang-switch{color:var(--dark);border-color:rgba(38,49,58,.4)}
-.site-header--overlay.is-solid .lang-switch a,
-.site-header--overlay.is-open .lang-switch a{color:var(--accent)}
-.site-header--overlay.is-solid .lang-switch .active,
-.site-header--overlay.is-open .lang-switch .active{color:var(--dark)}
-.site-header--overlay.is-solid .nav-burger,
-.site-header--overlay.is-open .nav-burger{color:var(--dark)}
-
 @media (max-width:1250px){
   .nav-desktop{display:none}
   .nav-burger{display:inline-flex}
